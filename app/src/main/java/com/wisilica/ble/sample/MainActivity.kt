@@ -37,6 +37,8 @@ class MainActivity : BaseActivity(), OnItemClickListener {
         setContentView(R.layout.activity_main)
         setToolbar(false)
 
+
+
         fab.setOnClickListener(this)
         setDeviceList();
 
